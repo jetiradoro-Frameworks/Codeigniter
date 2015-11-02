@@ -1,0 +1,43 @@
+/* general
+========================================*/
+
+//header
+// .header{
+// 	img{
+// 		width : 100%;
+// 	}
+// }
+
+.container{
+	min-width: 305px;
+}
+
+a{
+	&:hover{
+		text-decoration : none;
+		div.thumbnail{
+			.box-shadow(inset 0 0 10px @baseColor);
+		}
+	}  
+
+}
+
+
+
+.breadcrumb{
+	//background-color: @baseFontColor;
+	a{
+		color : @base2Color;
+
+		&:hover{
+			color : @baseFontColor;
+		}
+	}
+}
+
+label.req:after{
+	content: " *";
+    color: red;
+}
+
+

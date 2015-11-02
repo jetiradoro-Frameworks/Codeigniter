@@ -1,0 +1,2 @@
+<?php
+$lang['entrar'] = 'Entrar';
